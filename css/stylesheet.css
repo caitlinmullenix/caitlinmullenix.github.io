@@ -1,27 +1,29 @@
-p {
+p{
   color: red;
-  text-align:center;
+  text-align: center;
 }
 
 p {
-  color: yellow;
+  color: purple;
 }
 
-P::first-letter {
-  font-size: 500%;
+p:first-letter{
+  font-size: 55px;
+}
+
+#test-id-1 {
+  color: orange;
 }
 
 h1 {
   font-style: italic;
-  font-size: 300%;
+  font-size: 38px;
 }
 
-#test-id-1 {
-  color:purple;
-}
+
 
 .test-class {
-  text-shadow: 2px 20px red;
+  text-shadow: 2px 20px yellow;
 }
 
 a:hover {
