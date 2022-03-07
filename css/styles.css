@@ -1,5 +1,122 @@
-.navbar {
-  margin: 30px auto;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo{
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 12%;
+}
+
+.nav-links{
+  text-align: right;
+  background: #e1f5c4;
+  padding: 10px 30px;
+  border-bottom-left-radius: 18px;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.nav-links ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.left-side-bar{
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:#e1f5c4;
+}
+
+.row{
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5%;
+}
+
+.left-column{
+  flex-basis: 40%;
+}
+
+.right-column{
+  flex-basis: 55%;
+}
+
+.left-column img{
+  width: 80%;
+  cursor: pointer;
+}
+
+.right-column h1{
+  font-size:  55px;
+  font-weight: 600;
+}
+
+.right-column p{
+  color: #777;
+  margin: 20px 0 70px;
+}
+
+.about-me{
+  display: flex;
+  margin: 30px;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+  background: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.icon1 img{
+  width: 150px;
+  padding: 10px;
+}
+.icon2 img{
+  width: 150px;
+  padding: 10px;
+  margin-top: 30%;
+}
+.icon3 img{
+  width: 150px;
+  padding: 10px;
+  margin-top: 30%;
+}
+.icon4 img{
+  width: 150px;
+  padding: 10px;
 }
