@@ -39,12 +39,27 @@ nav{
   list-style: none;
   display: inline-block;
   padding: 10px 25px;
+  position: relative;
 }
 
 .nav-links ul li a{
   color: #000;
   text-decoration: none;
   font-size: 18px;
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #ff4e50;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
 }
 
 .left-side-bar{
@@ -119,4 +134,24 @@ nav{
 .icon4 img{
   width: 150px;
   padding: 10px;
+}
+
+@media (max-width: 700px){
+  .right-column h1{
+    font-size:  25px;
+    font-weight: 600;
+  }
+  .nav-links ul li{
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background: #e1f5c4;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
 }
