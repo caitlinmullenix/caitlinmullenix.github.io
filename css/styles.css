@@ -49,16 +49,9 @@ body {
       background: linear-gradient(to right, #E1f5C4, #E1f5C4 40%, white 0%);
       background-repeat: no-repeat;
     }
-    .box {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      height: fit-content;
-    }
     .nav-links{
-      width: 100%;
+      display: block;
       text-align: right;
-      grid-column: 2;
     }
     .link-style a{
       list-style-position: outside;
@@ -66,7 +59,35 @@ body {
       background-color: #E1f5C4;
       font-size: 10px;
     }
-    .link-style a:hover{
-      color: black;
+    .right-column{
+      text-align: left;
+      margin-left: 40%;
+      margin-right: 5%;
+    }
+    .right-column h1{
+      margin-left: 10%;
+      margin-right: 15%;
+    }
+    .right-column h2{
+      font-size: 20px;
+      margin-left: 10%;
+      margin-right: 15%;
+    }
+    .right-column p{
+      margin-left: 10%;
+      margin-right: 15%;
+      font-size: 12px;
+    }
+    .me{
+      margin-top: -40px;
+      width: 20%;
+      height: 20%;
+    }
+    .name{
+      margin-left: 0%;
+      object-fit: contain;
+      margin-top: -20%;
+      width: 147px;
+      height: 163px;
     }
   }
