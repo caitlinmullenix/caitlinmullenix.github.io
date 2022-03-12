@@ -80,16 +80,16 @@ body {
     .right-column p{
       margin-left: 20%;
       margin-right: 10%;
-      font-size: 12px;
+      font-size: 15px;
       position: relative;
       top: -100px;
     }
     .me{
-      width: 150px;
-      height: 200px;
+      width: 159px;
+      height: 229px;
       margin-left: 2%;
       position: relative;
-      top: -380px;
+      top: -550px;
     }
     .name{
       margin-left: 2%;
