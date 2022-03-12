@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+}
+body {
+  background: linear-gradient(to right, #E1f5C4, #E1f5C4 20%, white 20%);
+}
+.nav-links{
+  list-style: none;
+  text-align: right;
+  margin: 5%;
+}
+.link-style a{
+  text-decoration: none;
+  margin: 2%;
+  background-color: #E1f5C4;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+.link-style a:hover{
+  color: black;
+}
+.pdf{
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
