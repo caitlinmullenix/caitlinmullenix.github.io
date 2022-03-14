@@ -5,18 +5,17 @@ body {
   background: linear-gradient(to right, #E1f5C4, #E1f5C4 20%, white 20%);
 }
 .nav-links{
-  display: block;
+  list-style: none;
   text-align: right;
-  width: 200px;
-  margin-left: 45%;
+  margin: 5%;
 }
 .link-style a{
-  background-color: #E1f5C4; /* Grey background color */
-  color: #FF4E50; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  text-decoration: none; /* Remove underline from links */
-  margin-left: 50%;
-  padding-bottom: 2px;
+  text-decoration: none;
+  margin: 2%;
+  background-color: #E1f5C4;
+  color: #FF4E50;
+  margin: 0.5%;
+  padding: 0.5%;
 }
 .link-style a:hover{
   color: #FF4E50;
@@ -62,14 +61,16 @@ body {
     .nav-links{
       display: block;
       text-align: right;
+      width: 200px;
+      margin-left: 45%;
     }
     .link-style a{
-      text-decoration: none;
-      margin: 2%;
-      background-color: #E1f5C4;
-      color: #FF4E50;
-      margin: 0.5%;
-      padding: 0.5%;
+      background-color: #E1f5C4; /* Grey background color */
+      color: #FF4E50; /* Black text color */
+      display: block; /* Make the links appear below each other */
+      text-decoration: none; /* Remove underline from links */
+      margin-left: 50%;
+      padding-bottom: 2px;
     }
     .link-style a:hover{
       color: #FF4E50;
