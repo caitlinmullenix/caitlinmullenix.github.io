@@ -13,11 +13,13 @@ body {
   text-decoration: none;
   margin: 2%;
   background-color: #E1f5C4;
+  color: #FF4E50;
   margin: 0.5%;
   padding: 0.5%;
 }
 .link-style a:hover{
-  color: black;
+  color: #FF4E50;
+  background-color: #EDE574;
 }
 .right-column{
   text-align: left;
@@ -27,6 +29,7 @@ body {
 }
 .right-column h2{
   margin-top: 1%;
+  color: #FF4E50;
 }
 .right-column p{
   margin-top: 2%;
@@ -63,12 +66,20 @@ body {
     .nav-links{
       display: block;
       text-align: right;
+      width: 200px;
+      margin-left: 45%;
     }
     .link-style a{
-      list-style-position: outside;
-      text-decoration: none;
-      background-color: #E1f5C4;
-      font-size: 10px;
+      background-color: #E1f5C4; /* Grey background color */
+      color: #FF4E50; /* Black text color */
+      display: block; /* Make the links appear below each other */
+      text-decoration: none; /* Remove underline from links */
+      margin-left: 50%;
+      padding-bottom: 2px;
+    }
+    .link-style a:hover{
+      color: #FF4E50;
+      background-color: #EDE574;
     }
     .right-column{
       text-align: left;
@@ -88,6 +99,7 @@ body {
       margin-right: 10%;
       position: relative;
       top: -100px;
+      color: #FF4E50;
     }
     .right-column p{
       margin-left: 20%;
