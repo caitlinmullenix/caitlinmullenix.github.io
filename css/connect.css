@@ -32,9 +32,9 @@ body {
   font-size: 20px;
 }
 .me{
-  width: 365px;
+  width: 360px;
   height: 500px;
-  margin-top: -22%;
+  margin-top: 0%;
   margin-left: 10%;
 }
 .name{
@@ -42,6 +42,11 @@ body {
   height: 150px;
   margin-left: 10%;
   margin-top: -160px;
+}
+.writing{
+  margin-left: 50%;
+  margin-right: 10%;
+  margin-top: -30%;
 }
 
 @media screen and (max-width: 400px) {
