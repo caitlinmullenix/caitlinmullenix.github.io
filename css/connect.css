@@ -16,14 +16,17 @@ body {
   color: #FF4E50;
   margin: 0.5%;
   padding: 0.5%;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .link-style a:hover{
   color: #FF4E50;
   background-color: #EDE574;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .link-style a:hover{
   color: #FF4E50;
   background-color: #EDE574;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .right-column{
   text-align: left;
@@ -33,13 +36,15 @@ body {
 .right-column h1{
   margin-top: 1%;
   color: #FF4E50;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .right-column p{
   margin-top: 2%;
   font-size: 20px;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .me{
-  width: 360px;
+  width: 345px;
   height: 500px;
   margin-top: 0%;
   margin-left: 10%;
@@ -51,12 +56,14 @@ body {
   margin-top: -160px;
 }
 .writing{
-  margin-left: 50%;
+  margin-left: 40%;
   margin-right: 10%;
   margin-top: -30%;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .writing h1{
   color: #FF4E50;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
 @media screen and (max-width: 400px) {
@@ -77,10 +84,12 @@ body {
       text-decoration: none; /* Remove underline from links */
       margin-left: 50%;
       padding-bottom: 2px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .link-style a:hover{
       color: #FF4E50;
       background-color: #EDE574;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column{
       text-align: left;
@@ -93,6 +102,7 @@ body {
       position: relative;
       top: -100px;
       color: #FF4E50;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column h2{
       font-size: 20px;
@@ -100,6 +110,7 @@ body {
       margin-right: 10%;
       position: relative;
       top: -100px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column p{
       margin-left: 20%;
@@ -107,6 +118,7 @@ body {
       font-size: 15px;
       position: relative;
       top: -100px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .me{
       width: 159px;
@@ -125,8 +137,10 @@ body {
       margin-left: 50%;
       margin-right: 10%;
       margin-top: -80%;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .writing h1{
       color: #FF4E50;
+      font-family: 'Frank Ruhl Libre', serif;
     }
   }

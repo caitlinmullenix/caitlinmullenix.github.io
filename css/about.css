@@ -16,24 +16,29 @@ body {
   color: #FF4E50;
   margin: 0.5%;
   padding: 0.5%;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .link-style a:hover{
   color: #FF4E50;
   background-color: #EDE574;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .right-column{
   text-align: left;
   margin-left: 30%;
   margin-right: 5%;
-  margin-top: -25%;
+  margin-top: -30%;
 }
 .right-column h2{
   margin-top: 1%;
   color: #FF4E50;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
 }
 .right-column p{
   margin-top: 2%;
   font-size: 20px;
+  font-family: 'Frank Ruhl Libre', serif;
 }
 .me{
   width: 365px;
@@ -76,10 +81,12 @@ body {
       text-decoration: none; /* Remove underline from links */
       margin-left: 50%;
       padding-bottom: 2px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .link-style a:hover{
       color: #FF4E50;
       background-color: #EDE574;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column{
       text-align: left;
@@ -92,6 +99,7 @@ body {
       margin-right: 10%;
       position: relative;
       top: -100px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column h2{
       font-size: 20px;
@@ -100,6 +108,7 @@ body {
       position: relative;
       top: -100px;
       color: #FF4E50;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .right-column p{
       margin-left: 20%;
@@ -107,6 +116,7 @@ body {
       font-size: 15px;
       position: relative;
       top: -100px;
+      font-family: 'Frank Ruhl Libre', serif;
     }
     .me{
       width: 159px;
