@@ -149,7 +149,7 @@ body {
   border: 2px solid #FF4E50;
   margin-top: -12%;
 }
-.text2 {
+.text2 p{
   position: relative;
   width: 65%;
   text-align: center;
@@ -160,7 +160,7 @@ body {
   border: 2px solid #FF4E50;
   margin-top: -5%;
 }
-.text3 {
+.text3 p{
   position: relative;
   width: 65%;
   text-align: center;
@@ -171,7 +171,7 @@ body {
   border: 2px solid #FF4E50;
   margin-top: -11%;
 }
-.text4 {
+.text4 p{
   position: relative;
   width: 65%;
   text-align: center;
@@ -200,7 +200,7 @@ body {
   transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #FF4E50;
 }
 .fade {
   animation-name: fade;
