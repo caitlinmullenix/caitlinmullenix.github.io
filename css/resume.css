@@ -109,9 +109,8 @@ body {
       top: -550px;
     }
     .name{
-      margin-left: 2%;
+      margin-left: 28px;
       object-fit: contain;
-      margin-top: -20%;
       width: 147px;
       height: 163px;
     }
